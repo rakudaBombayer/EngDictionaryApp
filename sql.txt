@@ -1,0 +1,13 @@
+CREATE DATABASE dictionary;
+
+
+CREATE TABLE en_jp
+(
+id SERIAL PRIMARY KEY,
+
+word VARCHAR(100) NOT NULL,
+
+description TEXT 
+
+
+);
